@@ -1,0 +1,95 @@
+.container{
+	width: 100%;
+	box-sizing: border-box;
+}
+#menu{
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+}
+#board{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	
+}
+#section{
+  	width: 60%;	
+  	height: 150px;
+  	margin-left: auto;
+	margin-right: auto;
+    
+}
+.chosesign{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.chosesign button{
+	display: block;
+} 
+.buttons{
+	margin: 2px 2px;
+	font-size: 130px;
+	width: 30%;
+	padding: 0px 0px;
+	text-align: center;
+    text-decoration: none;
+	height: 150px;
+	background-color: yellow;
+}
+.play{
+	width: 70%;
+	font-size: 23px;
+	display: block;
+}
+.play button{
+	display: block;
+	width: 500px;
+	height: 80px
+}
+.gameSetter{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+#rule{
+	margin-bottom: 30px;
+	width: 100%;
+}
+#rule h3{
+	text-align: center;color: green;
+}
+@media only screen and (max-width: 800px) {
+  #menu{
+    background-color: lightblue;
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+  }
+  #board{
+  	width: 100%;
+  }
+  #rule{
+  	width: 100%;
+  	font-size: 10px;
+
+  }
+  .chosesign{
+	width: 100%;}
+  .buttons{
+  	height: 90px;
+  }
+
+}

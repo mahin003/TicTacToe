@@ -1,0 +1,170 @@
+body{
+	background-image: url("ai.jpg");
+}
+#menu{
+	display: flex;
+	justify-content: space-around;
+	
+	text-align: center;
+  border-bottom: 2px solid white
+  ;
+}
+#menu a{
+	margin-top: 10px;
+	display: block;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+#menu a:hover{
+	transition: .8s;
+	transform: scale(1.3);
+
+}
+
+
+#rule{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+}
+#rule h2:hover{
+	transition: 1s;
+	color: brown;
+}
+#chosesign label{
+	font-size: 20px;
+
+}
+#playButton{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	
+	margin-top: 20px;
+}
+#tictactoe{
+	margin-top: 10px;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Section{
+	width: 100%;
+}
+.buttons{
+        height: 130px;
+        background-color: white;
+        border:2px solid black;
+        text-align: center;
+        width: 33%;
+
+        color: black;
+
+}
+table, th, td {
+  border: 2px solid black;
+}
+#play{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+}
+.buttons p{
+	box-sizing: border-box;
+	font-size: 60px;
+	display: block;
+	margin-top: 20px;
+	color: black;
+    
+}
+#restart{
+    display: none;
+}
+#restart{
+	width: 60%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#restartButton{
+	width: 100px;
+	height: 30px;
+}
+#gamePlayReset{
+	width: 50%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 850px) {
+         #rule{
+         	width: 100%;
+         	font-size: 26px;
+         }
+     #tictactoe{
+     	width: 60%;
+     }
+     .buttons{
+     	height: 130px;
+     }
+  }
+
+ @media only screen and (max-width: 600px) {
+         #rule{
+         	width: 100%;
+         	font-size: 26px;
+         }
+     #tictactoe{
+     	width: 90%;
+     }
+     .buttons{
+     	height: 110px;
+     }
+  }
+
+#aiWon{
+	color: white;
+	font-weight: bolder;
+	 text-align: center;    
+    
+	z-index: +1;
+	
+
+}
+#Human{
+	color: white;
+	font-weight: bolder;
+	
+	text-align: center;
+	position: fixed;
+	z-index: +1;
+	display: none;
+	
+
+}
+#tie{
+	color: white;
+	font-weight: bolder;
+	
+	text-align: center;
+	position: fixed;
+	z-index: +1;
+	display: none;
+
+}
+#result{
+    width: 100%;
+    height: 300px;
+   background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+   
+}

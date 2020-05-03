@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+  
+	<title>MultiPlayer</title>
+</head>
+<body class="container-fluid">
+	
+    <div id="menu"> 
+           <a href="index.html">Home</a>
+           <a href="single.html">Single</a>
+           <a href="ai.html">AI</a>
+       
+    </div>
+    
+    <div id="rule" class="container-fluid">
+    	<h2 >"X" moves first ,"O" moves then</h2>
+    	
+    </div>	
+      
+    	
+   <table id="tictactoe" >
+       <tr id="Section">
+           <td class="buttons " ><p id="0"></p></td>
+           <td class="buttons " ><p id="1"></p></td>
+           <td class="buttons " ><p id="2"></p></td>
+       </tr>
+       <tr id="Section">
+           <td class="buttons " ><p id="3"></p></td>
+           <td class="buttons " ><p id="4"></p></td>
+           <td class="buttons " ><p id="5"></p></td>
+       </tr>
+       <tr id="Section">
+           <td class="buttons " ><p id="6"></p></td>
+           <td class="buttons " ><p id="7"></p></td>
+           <td class="buttons " ><p id="8"></p></td>
+       </tr>
+
+   </table>
+
+       
+
+   
+     <div id="gamePlayReset">
+    	<div id="playButton"><button type="button" class="btn btn-success" style="width: 100px;height: 34px; font-size: 20px;" onclick="play()">play</button></div>
+    	<div id="restart"><button type="button" id="restartButton" class="btn btn-success" style="width: 100px;height: 34px; font-size: 20px;" onclick="reset()">Restart</button></div>
+
+   
+   </div> 
+     <script type="text/javascript" src="multi.js"></script>
+   
+
+</body>
+</html>
